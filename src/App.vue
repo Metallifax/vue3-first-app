@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <useless-button/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import UselessButton from './components/UselessButton'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    UselessButton
   }
 }
 </script>
